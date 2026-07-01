@@ -29,5 +29,5 @@ async def start_group(message: types.Message):
 
 @dp.message_handler(IsGroup(), CommandHelp())
 async def bot_help(message: types.Message):
-    text = "Yordam kerak bo'lsa adminga murojaat qiling!\n👉 https://t.me/abdumalikovotabek2006"
+    text = "Yordam kerak bo'lsa adminga murojaat qiling!\n👉 https://t.me/turdiyev_1208"
     await message.answer(text)

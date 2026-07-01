@@ -48,14 +48,6 @@ async def chiqish(message: types.Message, state: FSMContext):
 
 
 
-
-
-
-
-@dp.message_handler(IsPrivate(), text="🧑‍💻 Dasturchi")
-async def bot_start(message: types.Message):
-    text="<b>Dasturchi:</b>\nAbdumalikov Otabek\n<b>Username:</b>\n@abdumalikovotabek2006\n<b>E-mail:</b>\nabdumalikovotabek2006@gmail.com\n<b>Telefon raqam:</b>\n+998(91)9055419\n+998(93)9055419"""
-    await message.answer_photo(photo="AgACAgIAAxkBAAIhEGknShIKoRcXlRbYH2yo-0kIvOIBAALaC2sbx65ASUpFZlZM4RkNAQADAgADeQADNgQ",caption=text,parse_mode="HTML")
 @dp.message_handler(IsPrivate(), text="🤖 Botni guruhga qo'shish")
 async def botni(message: types.Message):
     text = """Botni guruhga qo'shish:

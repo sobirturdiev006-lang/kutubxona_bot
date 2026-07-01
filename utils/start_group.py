@@ -25,9 +25,3 @@ async def start_group(message: types.Message):
         "👉 <a href='https://t.me/E_KitobXazinasi_Bot'>Kutubxonaga o‘tish uchun bosing</a>"
     )
     await message.answer(text, parse_mode="html", disable_web_page_preview=True)
-
-
-@dp.message_handler(IsGroup(), CommandHelp())
-async def bot_help(message: types.Message):
-    text = "Yordam kerak bo'lsa adminga murojaat qiling!\n👉 https://t.me/abdumalikovotabek2006"
-    await message.answer(text)
