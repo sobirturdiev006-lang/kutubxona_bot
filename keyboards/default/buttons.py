@@ -109,9 +109,7 @@ start_button = ReplyKeyboardMarkup(
             KeyboardButton(text="Wikipediyaga kirish")
         ],
         [
-            KeyboardButton(text="🧑‍💻 Dasturchi"),
             KeyboardButton(text='⭐ Botni baholash')
-
         ],
 
         [

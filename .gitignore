@@ -131,6 +131,7 @@ dmypy.json
 .idea/
 .DS_Store
 
+#
 *.db
 *.db-journal
 *.sqlite3

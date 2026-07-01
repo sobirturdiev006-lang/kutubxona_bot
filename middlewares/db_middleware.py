@@ -2,6 +2,7 @@ from aiogram import types
 from aiogram.dispatcher.middlewares import BaseMiddleware
 from utils.db import Database
 
+
 db = Database("main_database.db")
 
 
