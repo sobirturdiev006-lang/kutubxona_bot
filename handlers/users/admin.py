@@ -2,7 +2,7 @@ from aiogram import types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import StatesGroup, State
 from loader import dp, bot
-from data.config import ADMINS
+from config.config import ADMINS
 from utils.db import Database
 import asyncio
 from filters.admin_filter import AdminFilter

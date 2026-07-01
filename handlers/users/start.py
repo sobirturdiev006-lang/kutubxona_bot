@@ -2,7 +2,7 @@ from aiogram import types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from utils.db import Database
-from data.config import ADMINS
+from config.config import ADMINS
 from filters.private_filter import IsPrivate
 from keyboards.default.buttons import *
 from loader import dp, user_ids, bot
